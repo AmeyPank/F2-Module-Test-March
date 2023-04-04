@@ -77,11 +77,16 @@ function showTable() {
             }
             else
                 degree.innerHTML = `<div>${student[key]}
-                </div> <div class="icons">
-                <a onClick="edit(${student['ID']})" class='fa'>&#xf044;</a> 
-                <a onClick="del(${student['ID']})" class='fa'>&#xf1f8;</a> 
-                </div> `;
 
+                
+                <a style="margin-left:40px;" onClick="edit(${student['ID']})" class='fa'>&#xf044;</a> 
+                <a onClick="del(${student['ID']})" class='fa'>&#xf1f8;</a> 
+            
+                </div>
+               `;
+
+                // <div class="icons">
+                // </div> 
                 // class="fa fa-pencil-square-o"
             // degree.innerHTML = student[key] + "  <li class='fa'>&#xf044;</li>";
 
