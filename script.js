@@ -14,6 +14,7 @@ function addStudents() {
         alert("All fields are required!");
         return;
       }
+      alert("Student successfully added");
     //   Another way to code
     // if (nameValue == '' || emailValue == '' || ageValue == '' || gradeValue == '' || degreeValue == "") {
     //     alert("All fields are required!")
