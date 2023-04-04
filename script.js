@@ -77,13 +77,15 @@ function showTable() {
                 grade.innerHTML = student[key];
             }
             else
-                degree.innerHTML = `<div>${student[key]}
-
-                
-                <a style="margin-left:40px;cursor: pointer;" onClick="edit(${student['ID']})" class='fa'>&#xf044;</a> 
-                <a style="cursor: pointer; onClick="del(${student['ID']})" class='fa'>&#xf1f8;</a> 
-            
+                degree.innerHTML = `
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                  <div style="text-align: left;">${student[key]}</div>
+                  <div>
+                    <a style="cursor: pointer;margin:8px;" onClick="edit(${student['ID']})" class='fa'>&#xf044;</a> 
+                    <a style="cursor: pointer;" onClick="del(${student['ID']})" class='fa'>&#xf1f8;</a> 
+                  </div> 
                 </div>
+                
                `;
 
                 // <div class="icons">

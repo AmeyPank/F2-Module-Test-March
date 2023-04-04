@@ -65,11 +65,17 @@ th{
 }
 
 td{
+ 
+  text-align: left;
   padding: 10px;
   border: 1px solid lightgray;
 }
+td a{
+  text-align: right;
+}
 
 tbody{
+  
   height: auto;
 }
 
