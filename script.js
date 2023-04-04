@@ -80,8 +80,8 @@ function showTable() {
                 degree.innerHTML = `<div>${student[key]}
 
                 
-                <a style="margin-left:40px;" onClick="edit(${student['ID']})" class='fa'>&#xf044;</a> 
-                <a onClick="del(${student['ID']})" class='fa'>&#xf1f8;</a> 
+                <a style="margin-left:40px;cursor: pointer;" onClick="edit(${student['ID']})" class='fa'>&#xf044;</a> 
+                <a style="cursor: pointer; onClick="del(${student['ID']})" class='fa'>&#xf1f8;</a> 
             
                 </div>
                `;
